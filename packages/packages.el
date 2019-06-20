@@ -21,5 +21,4 @@
 
 (ensure-package-installed 'magit 'yasnippet 'projectile 'helm 'helm-projectile 'multiple-cursors 'dracula-theme)
 
-(load-theme 'dracula)
 (provide 'packages)
