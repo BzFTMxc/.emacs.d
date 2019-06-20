@@ -4,5 +4,6 @@
 (require 'dired-keybindings)
 (require 'yasnippets-keybindings)
 (require 'multiple-cursors-keybindings)
+(require 'mac-keybindings)
 
 (provide 'keybindings)
