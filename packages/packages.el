@@ -19,6 +19,7 @@
 (or (file-exists-p package-user-dir)
     (package-refresh-contents))
 
-(ensure-package-installed 'magit 'yasnippet)
+(ensure-package-installed 'magit 'yasnippet 'projectile 'helm 'helm-projectile 'multiple-cursors 'dracula-theme)
 
+(load-theme 'dracula)
 (provide 'packages)
