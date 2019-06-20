@@ -11,6 +11,7 @@
 (require 'themes)
 
 (global-linum-mode t)
+(global-flycheck-mode t)
 (setq linum-format "%4d | ")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
