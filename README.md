@@ -2,6 +2,13 @@
 ===
 Emacs init
 
+Dependencies
+------------
+Get `ag`
+*macOS*
+```
+brew install the_silver_searcher
+```
 
 Usage
 -----
