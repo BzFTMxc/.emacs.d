@@ -5,5 +5,6 @@
 (require 'yasnippets-keybindings)
 (require 'multiple-cursors-keybindings)
 (require 'mac-keybindings)
+(require 'dumb-jump-keybindings)
 
 (provide 'keybindings)
