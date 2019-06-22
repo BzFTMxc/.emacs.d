@@ -5,8 +5,8 @@
 
 (require 'packages)
 (require 'modes)
-(require 'keybindings)
 (require 'eventbindings)
+(require 'keybindings)
 (require 'snippets)
 (require 'themes)
 
