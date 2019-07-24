@@ -7,5 +7,6 @@
 (require 'multiple-cursors-keybindings)
 (require 'mac-keybindings)
 (require 'dumb-jump-keybindings)
+(require 'go-mode-keybindings)
 
 (provide 'keybindings)

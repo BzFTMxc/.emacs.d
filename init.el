@@ -11,7 +11,7 @@
 (require 'themes)
 
 (global-linum-mode t)
-(global-flycheck-mode t)
+;; (global-flycheck-mode t)
 (setq dumb-jump-mode t)
 (setq linum-format "%4d | ")
 (custom-set-variables
