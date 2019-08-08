@@ -19,6 +19,6 @@
 (or (file-exists-p package-user-dir)
     (package-refresh-contents))
 
-(ensure-package-installed 'magit 'yasnippet 'projectile 'helm 'helm-projectile 'multiple-cursors 'dracula-theme 'monokai-theme 'groovy-mode 'meghanada 'dumb-jump 'go-mode 'protobuf-mode)
+(ensure-package-installed 'magit 'yasnippet 'projectile 'helm 'helm-projectile 'multiple-cursors 'dracula-theme 'monokai-theme 'groovy-mode 'meghanada 'dumb-jump 'go-mode 'protobuf-mode 'scala-mode 'sbt-mode 'ensime)
 
 (provide 'packages)
