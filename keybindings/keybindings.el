@@ -8,5 +8,6 @@
 (require 'mac-keybindings)
 (require 'dumb-jump-keybindings)
 (require 'go-mode-keybindings)
+(require 'web-mode-keybindings)
 
 (provide 'keybindings)
