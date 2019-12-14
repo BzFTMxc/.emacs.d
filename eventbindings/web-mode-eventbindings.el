@@ -6,7 +6,7 @@
   (setq web-mode-markup-indent-offset 4))
   
 (add-hook 'web-mode-hook  'web-mode-init-hook)
-(add-hook 'web-mode-hook  'js2-minor-mode)
+;; (add-hook 'web-mode-hook  'js2-minor-mode)
 (add-hook 'web-mode-hook  'emmet-mode)
 
 (require 'flycheck)
