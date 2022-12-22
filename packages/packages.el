@@ -19,7 +19,6 @@
 (or (file-exists-p package-user-dir)
     (package-refresh-contents))
 
-;; (ensure-package-installed 'magit 'yasnippet 'projectile 'helm 'helm-projectile 'multiple-cursors 'dracula-theme 'monokai-theme 'groovy-mode 'meghanada 'dumb-jump 'go-mode 'protobuf-mode 'scala-mode 'sbt-mode 'ensime 'web-mode 'add-node-modules-path 'emmet-mode)
-(ensure-package-installed 'spacemacs-theme 'magit 'yasnippet 'multiple-cursors 'projectile 'helm 'helm-projectile 'helm-ls-git)
+(ensure-package-installed 'gnu-elpa-keyring-update 'nord-theme 'magit 'yasnippet 'multiple-cursors 'projectile 'helm 'helm-projectile 'exec-path-from-shell 'flycheck)
 
 (provide 'packages)

@@ -17,10 +17,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default))
+   '("197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1" default))
  '(package-selected-packages
-   '(multiple-cursors yasnippet spacemacs-theme monokai-theme magit helm-projectile helm-ls-git))
- '(warning-suppress-types '((emacs) (emacs) (emacs) (emacs))))
+   '(gnu-elpa-keyring-update nord-theme yasnippet spacemacs-theme multiple-cursors monokai-theme magit helm-projectile helm-ls-git flycheck exec-path-from-shell)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -28,5 +27,4 @@
  ;; If there is more than one, they won't work right.
  )
 
-(load-theme 'spacemacs-dark)
-
+(load-theme 'nord)
